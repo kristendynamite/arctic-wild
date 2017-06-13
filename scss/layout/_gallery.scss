@@ -1,0 +1,65 @@
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .border-top {
+    border: 3px solid $accent-color;
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  h3 {
+    padding: 20px;
+    margin-top: -10px;
+  }
+  img {
+    position: absolute;
+    width: 40px;
+    background-color: #383636;
+    padding: 20px;
+    border-radius: 100%;
+    align-self: center;
+    opacity: .8;
+    &:hover {
+      width: 65px;
+      transition: width .3s;
+    }
+  }
+}
+
+.raft {
+  background-image: url(img/raft.jpg);
+  width: 50%;
+}
+.base-camp{
+  background-image: url(img/basecamp.jpg);
+  width: 25%;
+}
+.backpack {
+  background-image: url(img/backpacking.jpg);
+  width: 25%;
+}
+
+.canoe {
+  background-image: url(img/canoe.jpg);
+  width: 25%;
+}
+
+.photograph {
+  background-image: url(img/feild.jpg);
+  width: 25%;
+}
+
+.custom {
+  background-image: url(img/mountain.jpg);
+  width: 50%;
+}

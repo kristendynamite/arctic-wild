@@ -32,7 +32,13 @@ body {
 button {
   color: #fff;
   font-family: 'Spectral', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.break-bar {
+  font-family:'Open Sans', sans-serif;
   font-size: 16px;
+  text-transform: none;
 }
 // font-family: 'Spectral', serif;
 // font-family: 'Open Sans', sans-serif;
