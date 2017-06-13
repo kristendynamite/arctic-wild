@@ -1,0 +1,33 @@
+body {
+  color: #fff;
+  font-family:'Fjalla One', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.navbar {
+  ul {
+    li:nth-child(2) {
+      font-size: 1.3em;
+      font-family: 'Spectral', serif;
+      font-weight: bold;
+    }
+    li {
+      letter-spacing: .1em;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  span {
+    font-family: 'Spectral', serif;
+    font-size: 120px;
+  }
+  p {
+    font-size: 1.2em;
+    letter-spacing: .3em;
+  }
+}
+// font-family: 'Spectral', serif;
+// font-family: 'Open Sans', sans-serif;
